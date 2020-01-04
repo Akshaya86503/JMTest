@@ -153,7 +153,6 @@ public class ExternalJobsSearch extends BootsBaseClass
 				enterjobreferenceTextbox.sendKeys(Jobr);
 		        Thread.sleep(4000);
 	            letssearchCTA.click();
-	            Thread.sleep(4000);
 	            NewUtility.NewtabFunction(readmoreCTA);
 	            Thread.sleep(4000);
 	            ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
