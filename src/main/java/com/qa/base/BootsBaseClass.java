@@ -20,8 +20,7 @@ public class BootsBaseClass
 		try
 		{
 		prop = new Properties();
-		FileInputStream ip = new FileInputStream("D:/Akshaya/General/Other/Selenium Projects/"
-				+ "Automated Testing With Selenium/Boots_POC/src/main/java/com/qa/config/config.properties");
+		FileInputStream ip = new FileInputStream("C:/Users/arahate/git/JMTest/src/main/java/com/qa/config/config.properties");
 		prop.load(ip);
 		}
 		catch(FileNotFoundException e)
