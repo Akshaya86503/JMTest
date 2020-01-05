@@ -17,7 +17,7 @@ public class NewTest extends BootsBaseClass
 	public NewTest() throws FileNotFoundException {
 		super();
 	}
-	@BeforeMethod
+	/*@BeforeMethod
 	public void SetUpStart() throws FileNotFoundException
 	{
 		Initialization();
@@ -45,7 +45,7 @@ public class NewTest extends BootsBaseClass
 	public void SetUpEnd()
 	{
 		//driver.quit();
-	}
+	}*/
 	
 	
 }
