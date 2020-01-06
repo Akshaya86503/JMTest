@@ -142,6 +142,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.tests.HomePageTest&quot;/&gt;
@@ -188,7 +191,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'RunAllTests')
 data.setCell(0, 2, 'com.qa.tests.HomePageTest')
-data.setCell(0, 3, 85683);
+data.setCell(0, 3, 67838);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -226,11 +229,11 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RunAllTests(null, null, null, null, null, null, null, null)</span>
-                <span class="method-start">22925 ms</span>
+                <span class="method-start">15869 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">SetUpEnd</span>
-                <span class="method-start">108610 ms</span>
+                <span class="method-start">83709 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
